@@ -59,9 +59,17 @@ Viewing an item is the point at which the customer reviews and item and adds it 
 
 
 	<p>Reflecting on the search page, the single most important thing is the results, so they should be given the highest priority. Any subsidiary elements, such as the search field itself, do just fine below the results.</p>
+	
+	
+<p>The wireframes that will be shipped to our designer:</p>
 
+<p><img src="browse.png" alt="Browse wireframe" /></p>
 
-	<h3>Basic <span class="caps">HTML</span> / <span class="caps">CSS</span></h3>
+<p><img src="search.png" alt="Search wireframe" /></p>
+
+<p><img src="view.png" alt="View wireframe" /></p>
+
+	<h3>Basic <span class="caps">HTML</span></h3>
 
 
 	<p>The beauty of mobile sites is that we don&#8217;t need to learn a new technology to implement them. Because the name of the game is simplicity, the markup to produce great looking sites can and should be very simple. In addition, most of the devices on the market today fully support <span class="caps">CSS</span>, so making sites that are not only mobile-friendly, but aesthetically pleasing is simpler than ever.</p>
@@ -94,7 +102,9 @@ Viewing an item is the point at which the customer reviews and item and adds it 
 
 <p><img src="view-nocss.png" alt="View screen without CSS" /></p>
 
-<p>However, mobile-based sites can seriously shine with some CSS and javascript love. The built-in browser on Nokia's N95 for example, supports a fully CSS-compliant Webkit based browser. It renders CSS beautifully, it's just a pain to side scroll through sites designed for larger screens. With a lick of CSS with a mobile device in mind, the browser really shines.</p>
+<h3><span class="caps">CSS and Javascript</span></h3>
+
+<p>Mobile-based sites can seriously shine with some CSS and javascript love. The built-in browser on Nokia's N95 for example, supports a fully CSS-compliant Webkit based browser. It renders CSS beautifully, it's just a pain to side scroll through sites designed for larger screens. With a lick of CSS with a mobile device in mind, the browser really shines.</p>
 
 <p>If you're not doing any mobile browser detection (using something like dotMobi's <a href="http://www.deviceatlas.com">DeviceAtlas</a>) then a quick way to add support for a mobile device to your site without changing any html is to use the CSS media="handheld". For example:</p>
 
@@ -103,6 +113,16 @@ Viewing an item is the point at which the customer reviews and item and adds it 
 <p>While not universally supported, it gives you a quick win to ensure that if a device supports your CSS stylesheet, it will display that one.</p>
 
 <p>CSS is best used to provide better visual separation between the elements on the page, and to fit more on the screen. There is some scope for lining things up horizontally on a mobile screen, and where possible it can be used to ensure that the most efficient use is made of screen real estate. Of course, if you have a flair for design, smart use of CSS will give you a chance to make the site visually appealing, in line with your brand. Not to mention a mobile site that will stand out from the crowd.</p>
+
+<p>Here's how the site looks with a gloss of CSS paint:</p>
+
+<p><img src="browse-css.png" alt="Browse screen without CSS" /></p>
+
+<p><img src="browse-css-1.png" alt="Browse screen without CSS" /></p>
+
+<p><img src="search-css.png" alt="Search screen without CSS" /></p>
+
+<p><img src="view-css.png" alt="View screen without CSS" /></p>
 
 <p>One message that I'd like to send home is that it's ok to use javascript to spruce up a mobile version of a site. One thing to note is that you should probably pay special attention to gracefully degrade any javascript you include, but using javascript to avoid page refreshes over oft-dodgy EDGE and 3G networks is an effective technique for providing a great user experience on your mobile site.</p>
 
@@ -135,3 +155,5 @@ Viewing an item is the point at which the customer reviews and item and adds it 
 <p>The last step of the puzzle is to run the site through <a href="http://ready.mobi">Ready.mobi</a>. This will help give you a sense of how good your site will look on a mobile. I missed a few small things, such as a closing &lt;/a&gt; tag and not including a &lt;fieldset&gt; tag in the search form. These things may seem rather pedantic, but ensuring that your markup is valid is a good way to ensure that there are no upsets to users on certain devices. It's a free service, there's no excuse not to use it.</p>
 
 <p>The sample mockups that accompany this article all get a score of 5 (Good) on Ready.mobi. There are a few warnings, but these I can live with for the sake of my site. I've covered all of the major factors in .mobi compliance. The important thing is to get a balance of functionality with as much compliance as possible. You can check out the compliance for the three pages here. <a href="http://ready.mobi/results.jsp?uri=http%3A%2F%2Fdotmobi.rslw.com%2Fbrowse.html&amp;locale=en_EN">Browse</a>, <a href="http://ready.mobi/results.jsp?uri=http%3A%2F%2Fdotmobi.rslw.com%2Fsearch.html&amp;locale=en_EN">Search</a> and <a href="http://ready.mobi/results.jsp?uri=http%3A%2F%2Fdotmobi.rslw.com%2Fview.html&amp;locale=en_EN">View</a></p>
+
+<p>You can also <a href="http://mobiforge.rslw.com">view the sample site</a> or <a href="http://github.com/paulca/design-article-site/tree/master">check out the source code on Github</a></p>
