@@ -7,12 +7,35 @@
   </head>
   <body>
     <h1>BookStore Online</h1>
-  
+    
+    <p id="results-summary">Search for "Red Arrow" (11 results)</p>
+    
+    <div id="results">
+      <h3 class="book"><a href="view.html">Red arrow at nightfall</a></h3>
+      <span class="author">by <a href="#">Michael Johnson</a></span>
+      <span class="price">&euro;8.99</span>
+      
+      <h3 class="album"><a href="view.html">The Red Arrows</a></h3>
+      <span class="author">by <a href="#">Love beats me badly</a></span>
+      <span class="price">&euro;19.99</span>
+      
+      <h3 class="book"><a href="view.html">Arrow Turn Right on Red</a></h3>
+      <span class="author">by <a href="#">Isabel Concheely</a></span>
+      <span class="price">&euro;8.99</span>
+      
+      <h3 class="dvd"><a href="view.html">Arrow in the Wrong Direction</a></h3>
+      <span class="author">by <a href="#">Paul Gascoigne</a></span>
+      <span class="price">&euro;5.99</span>
+    </div>
+    
+    <p id="results-more"><a href="#">More results >></a></p>
+    
     <div id="search">
-      <form action="/" method="post">
+      <form action="search.html" method="post">
         <input type="text" name="search" /> <input type="submit" name="submit" value="Search" />
       </form>
     </div>
+    
     <div id="navigation">
       <ul>
         <li><a href="#">Basket</a></li>
