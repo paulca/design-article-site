@@ -7,6 +7,13 @@
   </head>
   <body>
     <h1>BookStore Online</h1>
+    
+    <div id="search">
+      <form action="/" method="post">
+        <input type="text" name="search" /> <input type="submit" name="submit" value="Search" />
+      </form>
+    </div>
+    
     <div id="breadcrumbs">
       <ul>
         <li><a href="#">Home</a></li>
@@ -16,7 +23,7 @@
     </div>
   
     <div id="featured-product">
-      <h2>Harry Potter &amp; the Dragon's fury of infinite wrath</h2>
+      <h3>Harry Potter &amp; the Dragon's fury of infinite wrath</h3>
       <p id="image"><img src="images/harry-potter.jpg" /></p>
       <p>by <a href="#">J. K. Rowling</a></p>
       <p><span class="price">&euro;16.99</span> <span id="stock" class="in-stock">In stock now</span></p>
@@ -33,14 +40,21 @@
       <span class="price">&euro;12.00</span>
     
       <h3><a href="view.html">Pretty angels</a></h3>
-      <span class="author">by <a href="#">Kirk Chandlund</a></span>
-      <span class="price">&euro;12.00</span>
+      <span class="author">by <a href="#">Isabel Concheely</a></span>
+      <span class="price">&euro;8.99</span>
+      
+      <h3><a href="view.html">Life gone wrong</a></h3>
+      <span class="author">by <a href="#">Paul Gascoigne</a></span>
+      <span class="price">&euro;5.99</span>
     </div>
     
-    <div id="search">
-      <form action="/" method="post">
-        <input type="text" name="search" /> <input type="submit" name="submit" value="Search" />
-      </form>
+    <div id="special-offer">
+      <h2>Special offer</h2>
+      <h3>1984</h3>
+      <p id="image"><img src="images/1984.jpg" /></p>
+      <p>by <a href="#">George Orwell</a></p>
+      <p><span class="price">&euro;3.99</span> <span id="stock" class="while-stock">While stocks last</span></p>
+      <a href="#">Buy now</a>
     </div>
 
     <div id="navigation">
