@@ -20,21 +20,20 @@
     <hr/>
     
     <div id="breadcrumbs">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="browse.html">Books</a></li>
-        <li>Fiction</li>
-      </ul>
+      <p><a href="#">Home</a> | <a href="browse.html">Books</a> | Fiction</p>
     </div>
     
     <hr/>
   
     <div id="featured-product">
       <h3>Harry Potter &amp; the Dragon's fury of infinite wrath</h3>
-      <p id="image"><img src="images/harry-potter.jpg" /></p>
       <p class="author">by <a href="#">J. K. Rowling</a></p>
-      <p><span class="price">&euro;16.99</span> <span id="stock" class="in-stock">In stock now</span></p>
-      <a class="buy-now" href="#">Buy now</a>
+      <div class="image"><img src="images/harry-potter.jpg" /></div>
+      <div class="purchase">
+        <p><span class="price">&euro;16.99</span> <span id="stock" class="in-stock">In stock now</span></p>
+        <a class="buy-now" href="#">Buy now</a>
+      </div>
+      <br/>
     </div>
     
     <hr/>
@@ -68,20 +67,23 @@
     <div id="special-offer">
       <h2>Special offer</h2>
       <h3>1984</h3>
-      <p id="image"><img src="images/1984.jpg" /></p>
-      <p>by <a href="#">George Orwell</a></p>
-      <p><span class="price">&euro;3.99</span> <span id="stock" class="while-stock">While stocks last</span></p>
-      <a class="buy-now" href="#">Buy now</a>
+      <p class="author">by <a href="#">George Orwell</a></p>
+      <div class="image"><img src="images/1984.jpg" /></div>
+      <div class="purchase">
+        <p><span class="price">&euro;3.99</span> <span id="stock" class="while-stock">While stocks last</span></p>
+        <a class="buy-now" href="#">Buy now</a>
+      </div>
+      <br/>
     </div>
     
     <hr/>
 
     <div id="navigation">
-      <ul>
-        <li><a href="#">Basket</a></li>
-        <li><a href="browse.html">Categories</a></li>
-        <li><a href="#">Home</a></li>
-      </ul>
+      <ol>
+        <li><a accesskey="1" href="#">Basket</a></li>
+        <li><a accesskey="2" href="browse.html">Categories</a></li>
+        <li><a accesskey="3" href="#">Home</a></li>
+      </ol>
     </div>
     
     <hr/>

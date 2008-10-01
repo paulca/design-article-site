@@ -7,6 +7,8 @@ h1 {
   padding: 10px;
   background: #660000 url(../images/header-background.gif) top left;
   text-align: center;
+  font-size: 28px;
+  margin: 0;
 }
 a {
   color: #006633;
@@ -26,4 +28,14 @@ div#main, div#featured-product, div#special-offer {
 }
 p#copyright, p#copyright a {
   color: #888;
+}
+div.image {
+  float: left;
+  margin-right: 10px;
+}
+div.purchase {
+  float: left;
+}
+div#details, br {
+  clear: left;
 }
