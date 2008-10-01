@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <h1>BookStore Online</h1>
+  <head>
+    <title>BookStore Online</title>
+  </head>
+  <body>
+    <h1>BookStore Online</h1>
+    <div id="breadcrumbs">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="browse.html">Books</a></li>
+        <li>Fiction</li>
+      </ul>
+    </div>
+  
+    <div id="featured-product">
+      <h2>Harry Potter &amp; the Dragon's fury of infinite wrath</h2>
+      <p id="image"><img src="images/harry-potter.jpg" /></p>
+      <p>by <a href="#">J. K. Rowling</a></p>
+      <p><span class="price">&euro;16.99</span> <span id="stock" class="in-stock">In stock now</span></p>
+      <a href="#">Buy now</a>
+    </div>
+  
+    <div id="products">
+      <h3><a href="view.html">The Secret</a></h3>
+      <span class="author">by <a href="#">Dwayne Johnson</a></span>
+      <span class="price">&euro;8.99</span>
+    
+      <h3><a href="view.html">For whom the bell tolls</a></h3>
+      <span class="author">by <a href="#">Kirk Chandlund</a></span>
+      <span class="price">&euro;12.00</span>
+    
+      <h3><a href="view.html">Pretty angels</a></h3>
+      <span class="author">by <a href="#">Kirk Chandlund</a></span>
+      <span class="price">&euro;12.00</span>
+    </div>
 
-  <div id="navigation">
-    <ul>
-      <li><a href="#">Basket</a></li>
-      <li><a href="browse.html">Categories</a></li>
-      <li><a href="#">Home</a></li>
-    </ul>
-  </div>
-  <p id="copyright">Copyright &copy; 2008</p>
-  <p><a href="#">View full version</a></p>
+    <div id="navigation">
+      <ul>
+        <li><a href="#">Basket</a></li>
+        <li><a href="browse.html">Categories</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </div>
+    <p id="copyright">Copyright &copy; 2008</p>
+    <p><a href="#">View full version</a></p>
+  </body>
 </html>
