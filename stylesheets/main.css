@@ -10,6 +10,9 @@ h1 {
   font-size: 24px;
   margin: 0;
 }
+h2, h3 {
+  margin-bottom: 10px;
+}
 a {
   color: #006633;
 }
@@ -34,7 +37,7 @@ div.image {
   margin-right: 10px;
 }
 div.purchase {
-  float: left;
+  float: right;
 }
 div#details, br {
   clear: left;
