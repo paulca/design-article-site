@@ -3,30 +3,34 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>BookStore Online</title>
-    <link href="/stylesheets/main.css" media="handheld" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/main.css" media="handheld, screen" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1>BookStore Online</h1>
-    <h2>The Long Tail</h2>
-    <p>by <a href="#">Chris Anderson</a></p>
-    <div id="image">
-      <img src="images/long_tail.jpg"></img>
+    <hr/>
+    <div id="main">
+      <h2>The Long Tail</h2>
+      <p class="author">by <a href="#">Chris Anderson</a></p>
+      <div id="image">
+        <img src="images/long_tail.jpg"></img>
+      </div>
+      <div id="purchase">
+        <span id="price">&euro;16.99</span>
+        <span id="stock" class="in-stock">In stock</span>
+        <a class="buy-now" href="#">Buy now</a>
+      </div>
+      <div id="details">
+        <h3>Summary</h3>
+        <p>This fascinating walk through the modern market place exposes many myths in today's economy and preaches the benefits of tightly focussed offerings rather than large faceless brands. <a href="#">Full product details...</a></p>
+      </div>
     </div>
-    <div id="purchase">
-      <span id="price">&euro;16.99</span>
-      <span id="stock" class="in-stock">In stock</span>
-      <a href="#">Buy now..</a>
-    </div>
-    <div id="details">
-      <ul>
-        <li><strong>Summary</strong> This fascinating walk through the modern market place exposes many myths in today's economy and preaches the benefits of tightly focussed offerings rather than large faceless brands <a href="#">full product details...</a></li>
-      </ul>
-    </div>
+    <hr/>
     <div id="search">
       <form action="search.html" method="post">
         <input type="text" name="search" /> <input type="submit" name="submit" value="Search" />
       </form>
     </div>
+    <hr/>
     <div id="navigation">
       <ol>
         <li><a accesskey="1" href="#">Your basket (2 items)</a></li>
@@ -34,7 +38,7 @@
         <li><a accesskey="3" href="#">Home</a></li>
       </ol>
     </div>
-    <p id="copyright">Copyright &copy; 2008 BookStore</p>
-    <p><a href="#">Full version</a></p>
+    <hr/>
+    <p id="copyright">Copyright &copy; 2008 BookStore | <a href="#">Full version</p>
   </body>
 </html>

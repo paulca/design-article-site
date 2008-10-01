@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  color: #000;
+}
+h1 {
+  color: #fff;
+  padding: 10px;
+  background: #660000;
+  text-align: center;
+}
+a {
+  color: #006633;
+}
+a.buy-now {
+  color: #fff;
+  background: #006633;
+  padding: 5px;
+  text-decoration: none;
+}
+.author {
+  font-style: italic; 
+}
+div#main, div#featured-product, div#special-offer {
+  padding: 10px;
+  background: #ddd url(../images/main-gradient.gif) bottom repeat-x;
+}
+p#copyright, p#copyright a {
+  color: #888;
+}
