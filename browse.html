@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
-"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>BookStore Online</title>
@@ -13,7 +12,9 @@
     
     <div id="search">
       <form action="search.html" method="post">
-        <input type="text" name="search" /> <input type="submit" name="submit" value="Search" />
+        <fieldset>
+          <input type="text" name="search" /> <input type="submit" name="submit" value="Search" />
+        </fieldset>
       </form>
     </div>
     
@@ -28,7 +29,7 @@
     <div id="featured-product">
       <h3>Harry Potter &amp; the Dragon's fury of infinite wrath</h3>
       <p class="author">by <a href="#">J. K. Rowling</a></p>
-      <div class="image"><img src="images/harry-potter.jpg" /></div>
+      <div class="image"><img width="60" height="93" alt="Harry Potter" src="images/harry-potter.jpg" /></div>
       <div class="purchase">
         <p><span class="price">&euro;16.99</span> <span id="stock" class="in-stock">In stock now</span></p>
         <p><a class="buy-now" href="#">Buy now</a></p>
@@ -68,7 +69,7 @@
       <h2>Special offer</h2>
       <h3>1984</h3>
       <p class="author">by <a href="#">George Orwell</a></p>
-      <div class="image"><img src="images/1984.jpg" /></div>
+      <div class="image"><img width="60" height="86" alt="1984" src="images/1984.jpg" /></div>
       <div class="purchase">
         <p><span class="price">&euro;3.99</span> <span id="stock" class="while-stock">While stocks last</span></p>
         <p><a class="buy-now" href="#">Buy now</a></p>
@@ -88,6 +89,6 @@
     
     <hr/>
     
-    <p id="copyright">Copyright &copy; 2008 BookStore<br/><a href="#">Full version</p>
+    <p id="copyright">Copyright &copy; 2008 BookStore<br/><a href="#">Full version</a></p>
   </body>
 </html>
